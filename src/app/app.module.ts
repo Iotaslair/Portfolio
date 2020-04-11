@@ -6,6 +6,7 @@ import { LandingComponent } from './components/home-page/landing/landing.compone
 import { AboutComponent } from './components/home-page/about/about.component';
 import { ProjectsComponent } from './components/home-page/projects/projects.component';
 import { FooterComponent } from './components/home-page/footer/footer.component';
+import { HeaderComponent } from './components/home-page/header/header.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { FooterComponent } from './components/home-page/footer/footer.component'
     LandingComponent,
     AboutComponent,
     ProjectsComponent,
-    FooterComponent
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule
