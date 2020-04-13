@@ -1,0 +1,31 @@
+#footer {
+  margin-bottom: 3rem;
+  padding-top: 1rem;
+  border-top: 2px solid#d7d7d7;
+}
+
+#github-and-linked-in-row {
+  margin-bottom: 5px;
+}
+
+#footer-element {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-icon {
+  color: #000;
+  font: 50px FontAwesome;
+}
+
+#contact-element {
+  display: flex;
+  justify-content: center;
+}
+
+#contact {
+  color: #000;
+  text-decoration: underline;
+  font-size: x-large;
+}
+

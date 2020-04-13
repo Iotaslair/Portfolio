@@ -7,10 +7,6 @@
   padding: 3rem;
 }
 
-#about_tag {
-  font-size: 3.5rem;
-}
-
 .about-paragraph {
   margin-bottom: .3rem;
 }
@@ -24,6 +20,6 @@
 }
 
 #about-tag {
-  margin-bottom: 0rem;
+  margin-bottom: 0;
 }
 

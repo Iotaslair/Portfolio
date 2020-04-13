@@ -1,0 +1,25 @@
+#about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  margin-bottom: 4rem;
+  padding: 3rem;
+}
+
+.about-paragraph {
+  margin-bottom: .3rem;
+}
+
+#underline {
+  height: 2px;
+  width: 150px;
+  border: 1px solid #777;
+  margin: 20px auto;
+  margin-bottom: 40px;
+}
+
+#about-tag {
+  margin-bottom: 0;
+}
+
