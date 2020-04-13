@@ -1,0 +1,78 @@
+#landing-jumbo {
+  background: rgba(0,0,0,0);
+  display: flex;
+  flex-direction: column;
+  height: 91vh;
+}
+
+#landing {
+  background: url(../../assets/img/carl-borg-jFlKOkEh9Ck-unsplash.jpg);
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  height: 100vh;
+}
+
+@media (max-width: 1000px) {
+  #landing-jumbo {
+    justify-content: start;
+  }
+}
+
+@media (min-width: 1000px) {
+  #landing-jumbo {
+    justify-content: center;
+  }
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  margin-bottom: 4rem;
+  padding: 3rem;
+}
+
+#about_tag {
+  font-size: 3.5rem;
+}
+
+.about-paragraph {
+  margin-bottom: .3rem;
+}
+
+#project-tag {
+  margin-bottom: 2rem;
+  padding-left: 0px;
+}
+
+#underline {
+  height: 2px;
+  width: 150px;
+  border: 1px solid #777;
+  margin: 20px auto;
+  margin-bottom: 40px;
+}
+
+#about-tag {
+  margin-bottom: 0rem;
+}
+
+.product-item:hover {
+  /*transition: all 0.2s ease-in-out;*/
+  /*cursor: pointer;*/
+  /*height: auto;*/
+}
+
+@media (max-width: 576px) {
+  .product-item {
+    margin-bottom: 2 rem;
+  }
+}
+
+.project-row {
+  margin-bottom: 2rem;
+}
+

@@ -1,0 +1,15 @@
+#project-tag {
+  margin-bottom: 2rem;
+  padding-left: 0px;
+}
+
+@media (max-width: 576px) {
+  .project-item {
+    margin-bottom: 2 rem;
+  }
+}
+
+.project-row {
+  margin-bottom: 2rem;
+}
+
