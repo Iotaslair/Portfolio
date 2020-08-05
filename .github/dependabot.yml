@@ -6,3 +6,7 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    labels:
+      - "dependencies"
+      # Add default Kodiak `merge.automerge_label`
+      - "automerge"
