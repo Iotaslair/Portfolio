@@ -12,3 +12,9 @@
 .project-row {
   margin-bottom: 2rem;
 }
+
+.project-item {
+  display: grid;
+  align-items: center;
+}
+
